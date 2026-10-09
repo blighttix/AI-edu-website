@@ -78,7 +78,7 @@ html {
   box-sizing: inherit; }
 
 body {
-  background: #1b2028; }
+  background: #a8b8d3; }
   body.is-preload *, body.is-preload *:before, body.is-preload *:after, body.is-resizing *, body.is-resizing *:before, body.is-resizing *:after {
     -moz-animation: none !important;
     -webkit-animation: none !important;
@@ -91,7 +91,7 @@ body {
 
 /* Type */
 body, input, select, textarea {
-  color: #e4ecf2;
+  color: #252325;
   font-family: "Open Sans", sans-serif;
   font-size: 13pt;
   font-weight: 400;
@@ -131,7 +131,7 @@ p {
   margin: 0 0 2em 0; }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #f7d1d1;
+  color: #252325;
   font-family: "Roboto Slab", serif;
   font-weight: 700;
   line-height: 1.5;
@@ -1495,8 +1495,8 @@ button,
   background-color: transparent;
   border-radius: 0.375em;
   border: 0;
-  box-shadow: inset 0 0 0 2px #81d2f0;
-  color: #81d2f0 !important;
+  box-shadow: inset 0 0 0 2px #373853;
+  color: #373853 !important;
   cursor: pointer;
   display: inline-block;
   font-family: "Roboto Slab", serif;
@@ -1553,7 +1553,7 @@ button,
   input[type="button"].primary,
   button.primary,
   .button.primary {
-    background-color: #81d2f0;
+    background-color: #373853;
     box-shadow: none;
     color: #ffffff !important; }
     input[type="submit"].primary:hover,
@@ -1561,13 +1561,13 @@ button,
     input[type="button"].primary:hover,
     button.primary:hover,
     .button.primary:hover {
-      background-color: #81d2f0; }
+      background-color: #373853; }
     input[type="submit"].primary:active,
     input[type="reset"].primary:active,
     input[type="button"].primary:active,
     button.primary:active,
     .button.primary:active {
-      background-color: #81d2f0; }
+      background-color: #373853; }
   input[type="submit"].disabled, input[type="submit"]:disabled,
   input[type="reset"].disabled,
   input[type="reset"]:disabled,
@@ -1747,24 +1747,6 @@ button,
     margin: 0 0 6em 6em;
     position: relative;
     width: calc(33.33333% - 6em); }
-    .posts article:before {
-      background: rgba(210, 215, 217, 0.75);
-      content: '';
-      display: block;
-      height: calc(100% + 6em);
-      left: -3em;
-      position: absolute;
-      top: 0;
-      width: 1px; }
-    .posts article:after {
-      background: rgba(210, 215, 217, 0.75);
-      bottom: -3em;
-      content: '';
-      display: block;
-      height: 1px;
-      position: absolute;
-      right: 0;
-      width: calc(100% + 6em); }
     .posts article > :last-child {
       margin-bottom: 0; }
     .posts article .image {
@@ -2075,7 +2057,7 @@ button,
   display: -webkit-flex;
   display: -ms-flex;
   display: flex;
-  border-bottom: solid 5px #d38d8d;
+  border-bottom: solid 5px #373853;
   padding: 6em 0 1em 0;
   position: relative; }
   #header > * {
